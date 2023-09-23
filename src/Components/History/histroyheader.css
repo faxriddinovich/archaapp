@@ -1,0 +1,24 @@
+.history-header{
+    background-color: #ECE6F0;
+    width: 100%;
+    height: 75px;
+    z-index: 5;
+}
+
+.icon-box{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.icon-box a{
+    color: #1D1B20;
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+.icon-box h3{
+    margin: 0;
+}

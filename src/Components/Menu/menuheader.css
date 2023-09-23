@@ -1,0 +1,35 @@
+.menu-header{
+    width: 100%;
+    height: 75px;
+    padding: 15px 0;
+}
+
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.left-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 115px;
+}
+
+.left-box a{
+    color: #49454F;
+    font-size: 22px;
+}
+
+.left-box h3{
+    margin: 0;
+}
+
+.right-box button{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    font-size: 25px;
+}

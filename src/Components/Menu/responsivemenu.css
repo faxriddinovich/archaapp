@@ -1,0 +1,51 @@
+@media (min-width: 240px) and (max-width: 390px){
+    .table-list{
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 35px;
+    }
+
+    .table-list-item{
+        width: 48%;
+        margin: 10px 0;
+    }
+
+    .table-desc b{
+        font-size: 15px;
+    }
+
+    .table-desc p, .table-desc span{
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .button-box{
+        margin: 15px auto;
+    }
+
+    .button-box button{
+        font-size: 16px;
+        padding: 5px;
+        width: 35px;
+    }
+
+    .menu-footer{
+        transform: translateY(525px);
+    }
+
+    .main-section-menu{
+        height: 40px;
+    }
+
+    .cost h2{
+        font-size: 19px;
+        margin: 0;
+    }
+
+    .drag-btn{
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+}

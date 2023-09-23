@@ -1,0 +1,35 @@
+.settings-section{
+    width: 100%;
+}
+
+.account-box{
+    width: 95%;
+    margin: 15px auto;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px 5px;
+    background-color: #ECE6F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.waiter-info{
+    width: 49%;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.logout-box{
+    width: 75px;
+}
+
+.logout-btn{
+    border: none;
+    font-size: 25px;
+    margin: 0 10px;
+    outline: none;
+    background: inherit;
+    padding: 10px;
+    width: 45px;
+}

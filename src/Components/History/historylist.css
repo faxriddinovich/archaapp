@@ -1,0 +1,72 @@
+.history-list-section{
+    width: 100%;
+}
+
+.history-list{
+    width: 95%;
+    margin: 15px auto;
+    list-style: none;
+}
+
+.history-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F3EDF7;
+    margin: 10px auto;
+}
+
+.dropdown button{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    font-size: 22px;
+}
+
+.booked-foods{
+    padding: 10px;
+    background-color: grey;
+    border-radius: 10px 15px;
+    transition: 0.6s ease-in;
+    display: none;
+    z-index: -10;
+    animation: order-history-anim 0.6s ease-in;
+}
+
+.booked-foods h3{
+    font-size: 22px;
+}
+
+.book-list{
+    width: 98%;
+    margin: 10px auto;
+    list-style: none;
+}
+
+.book-list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    border-bottom: 1px solid #F3EDF7;
+    margin: 15px 0;
+    padding: 5px;
+}
+
+.book-list-item p{
+    margin: 0;
+}
+
+@keyframes order-history-anim {
+    from{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

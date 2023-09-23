@@ -1,0 +1,110 @@
+.menu-footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 5;
+    background-color: #fff;
+    transition: 0.7s ease-in;
+    height: 585px;
+    transform: translateY(500px);
+}
+
+.footer-box{
+    width: 100%;
+    margin:  0 auto;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 0 8px;
+    padding: 5px;
+}
+
+.main-section-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 10px auto;
+    height: 60px;
+}
+
+.cost{
+    width: 75%;
+    margin: 0px auto;
+}
+
+.cost h2{
+    border-radius: 5px;
+    padding: 10px 5px;
+    width: 95%;
+    font-size: 25px;
+    margin: 0 auto;
+    background-color: #ECE6F0;
+    text-align: center;
+}
+
+.drag-btn{
+    width: 50px;
+    height: 50px;
+    background-color: #ECE6F0;
+    color: #49454F;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.list-section{
+    width: 100%;
+}
+
+.food-list{
+    width: 100%;
+    margin: 5px auto;
+    list-style: none;
+    padding: 0;
+}
+
+.food-list-item{
+    width: 80%;
+    margin: 10px auto;
+    background-color: #ECE6F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.footer-btn{
+    width: 100%;
+    padding: 5px;
+}
+
+.tertiary-btn,.bg-tertiary-btn{
+    display: flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+    width: 75%;
+    outline: none;
+    border-radius: 10px;
+    margin: 5px auto;
+}
+
+.tertiary-btn{
+    border: 1px solid #6750A4;
+    color: #6750A4;
+    background-color: #fff;
+}
+
+.bg-tertiary-btn{
+    border: 1px solid #6750A4;
+    background-color: #6750A4;
+    color: #fff;
+}

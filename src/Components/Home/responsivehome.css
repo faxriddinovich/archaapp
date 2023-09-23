@@ -1,0 +1,59 @@
+@media (min-width: 270px) and (max-width: 390px){
+    .order-list{
+        width: 100%;
+    }
+
+    .order-list-item{
+        width: 98%;
+        margin: 10px auto;
+        padding: 5px 15px;
+    }
+
+    .order-status{
+        font-size: 19px;
+    }
+
+    .order-date{
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 391px) and (max-width: 470px){
+    .order-list{
+        width: 100%;
+    }
+
+    .order-list-item{
+        width: 98%;
+        margin: 10px auto;
+        padding: 5px 15px;
+    }
+
+    .order-status{
+        font-size: 20px;
+    }
+
+    .order-date{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 471px) and (max-width: 770px){
+    .order-list{
+        width: 100%;
+    }
+
+    .order-list-item{
+        width: 98%;
+        margin: 10px auto;
+        padding: 5px 15px;
+    }
+
+    .order-status{
+        font-size: 22px;
+    }
+
+    .order-date{
+        font-size: 16px;
+    }
+}
