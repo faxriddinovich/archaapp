@@ -4,7 +4,7 @@ import Table from './Table'
 import FooterMenu from './FooterMenu'
 
 import './responsivemenu.css'
-import { collection, doc, getDocs } from 'firebase/firestore'
+import { collection, getDocs } from 'firebase/firestore'
 import { db } from '../../firebase/firebase'
 function Menu() {
 
@@ -39,14 +39,17 @@ function Menu() {
         }
     ])
 
+    const [totalPrice, setTotalPrice] = useState(0)
+
     const [dishes,setDishes] = useState([])
+    const [selectedDishes, setSelectedDishes] = useState([])
 
     async function getAllDish(){
         const allDish = []
 
         const querySnapshot = await getDocs(collection(db,'Dish'))
 
-        querySnapshot.forEach(doc=>allDish.push({id:doc.id,...doc.data()}))
+        querySnapshot.forEach(doc=>allDish.push({id:doc.id,...doc.data(),count:0}))
 
         setDishes(allDish)
     }
@@ -58,8 +61,8 @@ function Menu() {
   return (
     <>
         <MenuHeader setTableList={setTableList} getAllDish={getAllDish}/>
-        <Table tableList={tableList} dishes={dishes}/>
-        <FooterMenu/>
+        <Table setDishes = { setDishes } dishes = { dishes } setTotalPrice={setTotalPrice}/>
+        <FooterMenu dishes={dishes} totalPrice={totalPrice} setTotalPrice={setTotalPrice}/>
     </>
   )
 }

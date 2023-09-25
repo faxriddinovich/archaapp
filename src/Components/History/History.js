@@ -17,7 +17,7 @@ function History(){
         const orderList = []
 
         orderSnapshot.forEach(doc=>{
-            orderList.push({id:doc.id,...doc.data})
+            orderList.push({id:doc.id,...doc.data()})
         })
         console.log(orderList)
         setHistoryList(orderList)

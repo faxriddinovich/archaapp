@@ -1,7 +1,7 @@
 import React from 'react'
 import TableList from './TableList'
 
-function Table({tableList}) {
+function Table({dishes, setDishes, setTotalPrice }) {
   return (
     <>
         <section className='table'>
@@ -19,7 +19,7 @@ function Table({tableList}) {
                     </div>
                 </div>
             </div>
-            <TableList tableList={tableList}/>
+            <TableList dishes={dishes} setDishes={setDishes} setTotalPrice={setTotalPrice}/>
         </section> 
     </>
   )

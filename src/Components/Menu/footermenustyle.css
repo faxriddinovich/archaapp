@@ -5,8 +5,8 @@
     z-index: 5;
     background-color: #fff;
     transition: 0.7s ease-in;
-    height: 585px;
-    transform: translateY(500px);
+    height: auto;
+    transform: translateY(calc(100% - 80px));
 }
 
 .footer-box{
